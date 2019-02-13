@@ -1,0 +1,17 @@
+ public class Instance_Block
+{
+	private int x;
+	{
+	System.out.println(" x "+ x);
+	x=5;
+	
+	}
+Instance_Block()
+  {
+	System.outprintln(x);
+  }
+public static void main(String args[])
+ {
+	Instance_Block obj=new Instance_Block();
+ }
+}
